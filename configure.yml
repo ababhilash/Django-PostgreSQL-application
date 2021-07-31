@@ -1,0 +1,38 @@
+- hosts: Django
+  become: yes
+  tasks:
+   - name: Install Docker
+     yum: 
+       name: docker
+       state: present
+       update_cache: true
+
+   - name: Start Docker
+     service:
+       name: docker
+       state: started
+
+   - name: Install Docker Compose
+     shell: sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+   - name: Execute permission for docker-compose
+     file:
+        path: /usr/local/bin/docker-compose
+        state: file
+        mode: 0755   
+
+   - name: Create a symbolic link
+     file:
+        src: /usr/local/bin/docker-compose
+        dest: /usr/bin/docker-compose
+        owner: root
+        group: root
+        state: link
+    
+   - name: Create the Django project by running the docker-compose
+     command: "{{items}}" 
+     with_items:
+        - sudo docker-compose run web django-admin startproject composeexample .
+        - sudo docker-compose up
+     args:
+       chdir: /root/project
