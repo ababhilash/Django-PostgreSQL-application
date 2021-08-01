@@ -1,7 +1,7 @@
 # Django-PostgreSQL-application
 Docker Compose to set up and run Django/PostgreSQL app using Ansible playbook.
 
-<h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="Objective_To_use_Docker_Compose_to_set_up_and_run_a_simple_DjangoPostgreSQL_app_0"></a>Objective: To use Docker Compose to set up and run a simple Django/PostgreSQL app.</h1>
+<h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="Objective_To_use_Docker_Compose_to_set_up_and_run_a_simple_DjangoPostgreSQL_app_0"></a>Objective: To use Docker Compose to set up and run a Django/PostgreSQL app.</h1>
 <p class="has-line-data" data-line-start="2" data-line-end="3"><a href="https://travis-ci.org/joemccann/dillinger"><img src="https://travis-ci.org/joemccann/dillinger.svg?branch=master" alt="Build Status"></a></p>
 <h2 class="code-line" data-line-start=3 data-line-end=4 ><a id="Description_3"></a>Description:</h2>
 <p class="has-line-data" data-line-start="4" data-line-end="5">Create a docker-compose file for running a django application with postgresql 10. Django app and postgresql should be running as different compose services. Also the compose app should be deployed using ansible playbook</p>
