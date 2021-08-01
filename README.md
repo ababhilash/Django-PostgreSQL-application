@@ -26,9 +26,9 @@ docker-compose version 1.29.2, build 5becea4c</p>
 └── requirements.txt</p>
 <p class="has-line-data" data-line-start="29" data-line-end="30">0 directories, 3 files</p>
 <h2 class="code-line" data-line-start=31 data-line-end=32 ><a id="Successfull_Outputs_31"></a>Successfull Outputs:</h2>
-<h4 class="code-line" data-line-start=33 data-line-end=34 ><a id="Output_of_the_Django_app_running_on_port_8000_33"></a><strong><em>Output of the Django app running on port 8000</em></strong></h4>
+<h4 class="code-line" data-line-start=33 data-line-end=34 ><a id="Output_of_the_Django_app_running_on_port_8000_33"></a><strong><em>Output of Ansible playbook-app.yml</em></strong></h4>
 <p class="has-line-data" data-line-start="35" data-line-end="36"><img src="screenshots/backend.png" alt=""></p>
-<h4 class="code-line" data-line-start=37 data-line-end=38 ><a id="Output_of_Ansible_playbookappyml_37"></a><strong><em>Output of Ansible playbook-app.yml</em></strong></h4>
+<h4 class="code-line" data-line-start=37 data-line-end=38 ><a id="Output_of_Ansible_playbookappyml_37"></a><strong><em>Output of the Django app running on port 8000</em></strong></h4>
 <p class="has-line-data" data-line-start="39" data-line-end="40"><img src="screenshots/frontend.png" alt=""></p>
 <h4 class="code-line" data-line-start=41 data-line-end=42 ><a id="Output_of_running_containers_41"></a><strong><em>Output of running containers</em></strong></h4>
 <p class="has-line-data" data-line-start="43" data-line-end="44"><img src="screenshots/Containers.png" alt=""></p>
