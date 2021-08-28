@@ -93,7 +93,7 @@ ALLOWED_HOSTS = [‘IP’]<br>
 [root@ip-<span class="hljs-number">172</span>-<span class="hljs-number">31</span>-<span class="hljs-number">16</span>-<span class="hljs-number">38</span> project]<span class="hljs-comment"># docker-compose up</span>
 </code></pre>
 <p class="has-line-data" data-line-start="98" data-line-end="99"><img src="screenshots/docker-compose.png" alt=""></p>
-<p class="has-line-data" data-line-start="100" data-line-end="102">At this point, the Django app should be running at port 8000 on a web browser to see the Django welcome page.<br>
+<p class="has-line-data" data-line-start="100" data-line-end="102">At this point, the Django app should be running at port 8000 and to see the Django welcome page use the below URL.<br>
 http://ip_address:8000/</p>
 <h2 class="code-line" data-line-start=103 data-line-end=104 ><a id="Versions_103"></a>Versions:</h2>
 <ol>
