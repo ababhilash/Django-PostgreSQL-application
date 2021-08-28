@@ -120,7 +120,14 @@ docker-compose version <span class="hljs-number">1.29</span>.<span class="hljs-n
 <pre><code class="has-line-data" data-line-start="121" data-line-end="124" class="language-sh">[root@ip-<span class="hljs-number">172</span>-<span class="hljs-number">31</span>-<span class="hljs-number">62</span>-<span class="hljs-number">56</span> project]<span class="hljs-comment"># python -V</span>
 Python <span class="hljs-number">3.8</span>.<span class="hljs-number">0</span>
 </code></pre>
-<h2 class="code-line" data-line-start=125 data-line-end=126 ><a id="Additional_links_125"></a>Additional links:</h2>
+<h2 class="code-line" data-line-start=125 data-line-end=126 ><a id="Outputs_125"></a>Outputs:</h2>
+<p class="has-line-data" data-line-start="127" data-line-end="129"><strong><em>Output of Ansible playbook app.yml</em></strong><br>
+<img src="screenshots/backend.png" alt=""></p>
+<p class="has-line-data" data-line-start="130" data-line-end="132"><strong><em>Output of the Django app running on port 8000</em></strong><br>
+<img src="screenshots/frontend.png" alt=""></p>
+<p class="has-line-data" data-line-start="133" data-line-end="135"><strong><em>Output of running containers</em></strong><br>
+<img src="screenshots/Containers.png" alt=""></p>
+<h2 class="code-line" data-line-start=136 data-line-end=137 ><a id="Additional_links_136"></a>Additional links:</h2>
 <table class="table table-striped table-bordered">
 <thead>
 <tr>
@@ -147,13 +154,6 @@ Python <span class="hljs-number">3.8</span>.<span class="hljs-number">0</span>
 </tr>
 </tbody>
 </table>
-<h2 class="code-line" data-line-start=135 data-line-end=136 ><a id="Outputs_135"></a>Outputs:</h2>
-<p class="has-line-data" data-line-start="137" data-line-end="139"><strong><em>Output of Ansible playbook app.yml</em></strong><br>
-<img src="screenshots/backend.png" alt=""></p>
-<p class="has-line-data" data-line-start="140" data-line-end="142"><strong><em>Output of the Django app running on port 8000</em></strong><br>
-<img src="screenshots/frontend.png" alt=""></p>
-<p class="has-line-data" data-line-start="143" data-line-end="145"><strong><em>Output of running containers</em></strong><br>
-<img src="screenshots/Containers.png" alt=""></p>
-<h2 class="code-line" data-line-start=146 data-line-end=147 ><a id="Summary_146"></a>Summary</h2>
-<p class="has-line-data" data-line-start="147" data-line-end="148">I hope this will help you in working with Docker, Django, PostgreSQL and Ansible.</p>
-<h2 class="code-line" data-line-start=149 data-line-end=150 ><a id="Thank_You_149"></a><strong>Thank You</strong></h2>
+<h2 class="code-line" data-line-start=145 data-line-end=146 ><a id="Summary_145"></a>Summary</h2>
+<p class="has-line-data" data-line-start="146" data-line-end="147">I hope this will help you in working with Docker, Django, PostgreSQL and Ansible.</p>
+<h2 class="code-line" data-line-start=148 data-line-end=149 ><a id="Thank_You_148"></a><strong>Thank You</strong></h2>
