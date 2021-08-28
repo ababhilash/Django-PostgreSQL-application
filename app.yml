@@ -30,7 +30,7 @@
         state: link
     
    - name: Create the Django project by running the docker-compose
-     command: "{{items}}" 
+     command: "{{item}}" 
      with_items:
         - sudo docker-compose run web django-admin startproject composeexample .
         - sudo docker-compose up
