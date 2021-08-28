@@ -1,5 +1,4 @@
 # Django-PostgreSQL-application
-Docker Compose to set up and run Django/PostgreSQL app using Ansible playbook.
 
 <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Objective_1"></a>Objective:</h2>
 <p class="has-line-data" data-line-start="3" data-line-end="4">To set up and run a Django/PostgreSQL application using Docker Compose and Ansible playbook.</p>
