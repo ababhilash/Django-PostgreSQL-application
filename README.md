@@ -1,6 +1,6 @@
 <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="DjangoPostgreSQLapplication_0"></a>Django-PostgreSQL-application</h1>
-<h2 class="code-line" data-line-start=2 data-line-end=3 ><a id="Objective_2"></a>Objective:</h2>
-<p class="has-line-data" data-line-start="4" data-line-end="5"><img src="screenshots/Diagram.png" alt=""></p>
+<p class="has-line-data" data-line-start="2" data-line-end="3"><img src="screenshots/Diagram.png" alt=""></p>
+<h2 class="code-line" data-line-start=4 data-line-end=5 ><a id="Objective_4"></a>Objective:</h2>
 <p class="has-line-data" data-line-start="6" data-line-end="7">To set up and run a Django/PostgreSQL application using Docker Compose and Ansible playbook.</p>
 <h2 class="code-line" data-line-start=8 data-line-end=9 ><a id="Description_8"></a>Description:</h2>
 <p class="has-line-data" data-line-start="10" data-line-end="11">Create a docker-compose file for running a Django application with PostgreSQL 10. The Django app and PostgreSQL should be running as different compose services. Also, the compose app should be deployed using an ansible-playbook. I have used two Amazon Linux EC2 instances, one for the Django/PostgreSQL application and the other one used as an Ansible server.</p>
